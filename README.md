@@ -1,5 +1,5 @@
 # upgraded-waddle
-Powerful ML Software
+
 import tensorflow as tf import lewis.py as lewis
 
 def create_neural_network(): """Creates a simple neural network.""" model = tf.keras.Sequential([ tf.keras.layers.Flatten(input_shape=(28, 28)), tf.keras.layers.Dense(128, activation='relu'), tf.keras.layers.Dense(10, activation='softmax') ]) return model
